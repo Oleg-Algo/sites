@@ -1,3 +1,8 @@
+.br {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
 body { background: rgb(200,200,200);
 }
 
