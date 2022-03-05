@@ -1,3 +1,22 @@
+table, td {
+  border: 1px solid darkblue;
+}
+
+tr:first-child {
+  background: rgb(255,255,20);
+  border: 3px solid darkblue;
+}
+
+td:first-child {
+  background: rgb(255,255,20);
+  border: 3px solid darkblue;
+}
+
+tr:last-child {
+  background: rgb(255,20,20);
+  border: 1px solid darkblue;
+}
+
 .br {
   border-radius: 10px;
   border: 2px solid black;
@@ -11,14 +30,12 @@ h1 {
 }
 
 p {
-  border: 5px dashed black;
   font-family:Arial;
   font-size:18px;
   color: rgb(100,0,255);
 }
 
 div {
-  border: 3px solid black;
   background: rgb(0,255,150); /* Цвет фона */
   padding: 20px;
 }
