@@ -1,3 +1,11 @@
+a:hover {
+    color: darkorange;
+}
+
+a:visited {
+    color: violet;
+}
+
 body {
     font-family: sans-serif;
 }
