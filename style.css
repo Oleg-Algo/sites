@@ -27,6 +27,12 @@ body { background: rgb(200,200,200);
 
 h1 {
   border: 3px solid black;
+   width: 230px;
+}
+
+h1::before {
+  content: "\260E";
+  width: 250px;
 }
 
 p {
