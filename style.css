@@ -32,12 +32,12 @@ h1 {
 
 h1::before {
   content: "\260E";
-  opacity: 0
+  display: inline-block;
+  opacity: 0;
 }
 
 h1:hover::before {
-  opacity: 1
-  width: 450px;
+  opacity: 1;
 }
 
 p {
