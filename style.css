@@ -34,7 +34,6 @@ h1 {
 h1::before {
   content: "\260E";
   display: inline-block;
-  position: absolute;
   opacity: 0;
 }
 
