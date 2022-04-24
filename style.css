@@ -27,13 +27,14 @@ body { background: rgb(200,200,200);
 
 h1 {
   border: 3px solid black;
-   width: 430px;
+  position: relative;
+  width: 430px;
 }
 
 h1::before {
   content: "\260E";
   display: inline-block;
-  position: relative;
+  position: absolute;
   opacity: 0;
 }
 
