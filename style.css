@@ -25,6 +25,14 @@ tr:last-child {
 body { background: rgb(200,200,200);
 }
 
+.mark {
+  list-style: none;
+}
+
+.mark li:before {
+  content: \2714;
+}
+
 h1 {
   border: 3px solid black;
   position: relative;
