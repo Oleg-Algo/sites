@@ -30,7 +30,7 @@ body { background: rgb(200,200,200);
 }
 
 .mark li:before {
-  content: \2714;
+  content: "\2714";
 }
 
 h1 {
