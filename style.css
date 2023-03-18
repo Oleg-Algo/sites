@@ -40,7 +40,7 @@ h1 {
 }
 
 h1::before {
-  content: "\260E";
+  content: "\1F603";
   display: inline-block;
   opacity: 0;
 }
