@@ -41,7 +41,7 @@ h1 {
 
 h1::before {
   content: "\1F603";
-  display: block;
+  display: inline-block;
   opacity: 0;
 }
 
