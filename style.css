@@ -36,12 +36,12 @@ body { background: rgb(20,200,200);
 h1 {
   border: 3px solid black;
   position: relative;
-  width: 430px;
+  width: 500px;
 }
 
 h1::before {
   content: "\1F603";
-  display: inline-block;
+  display: block;
   opacity: 0;
 }
 
